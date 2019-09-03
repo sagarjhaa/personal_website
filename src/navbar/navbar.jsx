@@ -1,10 +1,15 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import About from "../about/about";
+import Project from "../project/project";
 
 export default class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand">Navbar</a>
+        <Link className="navbar-brand" to="/">
+          Sagar
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -20,12 +25,14 @@ export default class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link">
-                Home <span className="sr-only">(current)</span>
-              </a>
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Link</a>
+              <Link className="nav-link" to="/project">
+                Projects
+              </Link>
             </li>
           </ul>
         </div>
