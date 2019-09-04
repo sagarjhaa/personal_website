@@ -1,40 +1,57 @@
 {
   "projects": [
     {
-      "title": "Xinyue ye website",
-      "oneline": "Xinyue ye website"
-    },
-    {
-      "title": "Twitter data download",
-      "oneline": "Twitter data download"
-    },
-    {
-      "title": "Enterprise Application",
-      "oneline": "Enterprise Application"
-    },
-    {
-      "title": "Meeting room application",
-      "oneline": "Meeting room application"
-    },
-    {
-      "title": "Private water application",
-      "oneline": "CCBH Private water application"
-    },
-    {
-      "title": "Temperature app",
-      "oneline": "Temperature app"
-    },
-    {
-      "title": "SlowMo photos",
-      "oneline": "SlowMo photos"
+      "title": "SGD-Backend",
+      "list": [
+        "Write API to perfrom CRUD operations.",
+        "Create user interface to perform data operations."
+      ],
+      "technology": [
+        "Python",
+        "Pyramid",
+        "SQLAlchemy",
+        "Psycopg2",
+        "ReactJS",
+        "ReactJS"
+      ]
     },
     {
       "title": "Yeast genome",
-      "oneline": "Yeastgenome app"
+      "list": [
+        "Develop components to consume API and show userful user data.",
+        ""
+      ],
+      "technology": ["React", "Foundation", "AWS", "Grunt", "Webpack", "Babel"]
     },
     {
-      "title": "Curator Interface migration",
-      "oneline": "Curator Interface migration"
+      "title": "SlowMo photos",
+      "list": ["Curator Interface migration"],
+      "technology": ["HTML5", "CSS3", "JQuery"]
+    },
+    {
+      "title": "Temperature app",
+      "list": ["Curator Interface migration"],
+      "technology": ["HTML5", "CSS3", "JQuery"]
+    },
+    {
+      "title": "Private water application",
+      "list": ["Curator Interface migration"],
+      "technology": ["HTML5", "CSS3", "JQuery"]
+    },
+    {
+      "title": "Meeting room application",
+      "list": ["Curator Interface migration"],
+      "technology": ["Angular", "CSS3", "JQuery"]
+    },
+    {
+      "title": "Enterprise Application",
+      "list": ["Curator Interface migration"],
+      "technology": ["HTML5", "CSS3", "JQuery"]
+    },
+    {
+      "title": "Twitter data download",
+      "list": ["Curator Interface migration"],
+      "technology": ["HTML5", "CSS3", "JQuery"]
     }
   ]
 }
