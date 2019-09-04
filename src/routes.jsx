@@ -12,11 +12,11 @@ export default class Routes extends Component {
     return (
       <BrowserRouter>
         <Navbar />
-        <div className="container">
-          <Route component={About} path="/about" />
+        <Route component={About} path="/about" />
+        <div className="container-fluid">
           <Route component={Project} path="/project" />
-          <Route component={About} path="/" exact />
         </div>
+        <Route component={About} path="/" exact />
       </BrowserRouter>
     );
   }

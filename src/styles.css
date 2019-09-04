@@ -1,4 +1,9 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Chilanka|Manjari|Titillium+Web:300&display=swap");
+
+body {
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+.nav {
+  background-color: #a2c6e3;
 }

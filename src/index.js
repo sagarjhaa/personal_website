@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import Routes from "./routes";
+import "../src/styles.css";
 
 function App() {
   return <Routes />;
