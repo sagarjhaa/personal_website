@@ -1,7 +1,13 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
+import ProjectList from "../project/projects";
 
 export default class About extends Component {
   render() {
-    return <div>About</div>;
+    return (
+      <Fragment>
+        <div>About</div>
+        <ProjectList />
+      </Fragment>
+    );
   }
 }
